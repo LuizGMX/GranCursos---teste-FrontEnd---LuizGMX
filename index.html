@@ -13,6 +13,8 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -20,30 +22,34 @@
 
     <div class="wrapper">
         <div class="sidebar">
-            <img src="https://www.grancursosonline.com.br/assets/site/img/logo/logo.svg"
-                style="width: 80%; margin-left: 8%; margin-bottom: 5%; " alt="">
+            <div style="width: 100%; height: fit-content;">
+                <img src="https://www.grancursosonline.com.br/assets/site/img/logo/logo.svg"
+                style="width: 80%; margin-left: 8%; margin-bottom: 5%; border-radius: 10px; border-color: white;" alt="">
+
+            </div>
+          
             <ul>
-                <li><a href="#"><i class="fas fa-home"></i>Dashboard</a></li>
-                <li><a href="#"><i class="far fa-circle"></i>eCommerce</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i>Email</a></li>
-                <li><a href="#"><i class="far fa-comment-alt topIcons"></i>Chat</a></li>
-                <li><a href="#"><i class="fas fa-check"></i>Todo</a></li>
-                <li><a href="#"><i class="fas fa-calendar"></i>Calendar</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-home"></i>Dashboard</a></li>
+                <li><a style="color: black;" href="#"><i class="far fa-circle"></i>eCommerce</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-envelope"></i>Email</a></li>
+                <li><a style="color: black;" href="#"><i class="far fa-comment-alt topIcons"></i>Chat</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-check"></i>Todo</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-calendar"></i>Calendar</a></li>
             </ul>
 
             <ul style="margin-top: 10%;">
-                <li><a href="#"><i class="fas fa-th"></i>Grid</a></li>
-                <li><a href="#"><i class="fas fa-tint"></i>Colors</a></li>
-                <li><a href="#"><i class="fas fa-credit-card"></i>Card</a></li>
-                <li><a href="#"><i class="fas fa-table"></i></i>Table</a></li>
-                <li><a href="#"><i class="fas fa-box"></i>Components</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-th"></i>Grid</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-tint"></i>Colors</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-credit-card"></i>Card</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-table"></i></i>Table</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-box"></i>Components</a></li>
             </ul>
 
             <ul style="margin-top: 10%;">
-                <li><a href="#"><i class="far fa-square"></i>Form Elements</a></li>
-                <li><a href="#"><i class="fas fa-table"></i>Form Layouts</a></li>
-                <li><a href="#"><i class="far fa-file-alt"></i>Form Wizard</a></li>
-                <li><a href="#"><i class="far fa-check-circle"></i></i>Form Validation</a></li>
+                <li><a style="color: black;" href="#"><i class="far fa-square"></i>Form Elements</a></li>
+                <li><a style="color: black;" href="#"><i class="fas fa-table"></i>Form Layouts</a></li>
+                <li><a style="color: black;" href="#"><i class="far fa-file-alt"></i>Form Wizard</a></li>
+                <li><a style="color: black;" href="#"><i class="far fa-check-circle"></i></i>Form Validation</a></li>
             </ul>
         </div>
         <div class="main_content">
@@ -77,7 +83,7 @@
 
                         <div class="container column">
     
-                            <p style="margin-top: 8%; margin-bottom: 5%; margin-left: 4% ;font-weight: bold;"> Multi Range
+                            <p class="multiRange"> Multi Range
                             </p>
                             <div class="checkBoxes">
                                 <input type="radio" name="multiRange" style="display: inline;" id="radio1">
@@ -91,11 +97,11 @@
                                 <input type="radio" name="multiRange" id="radio5">
                                 <label for="radio5">All</label>
                             </div>
-                            <p style="font-weight: bold; margin-top: 10%; margin-left: 4%">
+                            <p class="sliderTitle">
                                 Slider<input type="text" id="amount" readonly
                                     style="border:0; font-weight:bold; background-color: transparent; margin-left: 35%;">
                             </p>
-                            <div style="background-color: #091e42; width: 80%; margin-left: 5%; margin-right: 5%; margin-top: 10%; margin-bottom: 10%;"
+                            <div style="background-color: #ffab00; width: 80%; margin-left: 5%; margin-right: 5%; margin-top: 10%; margin-bottom: 10%;"
                                 id="slider-range"></div>
                             <hr class="solid">
                             <p class="brand"> Category
@@ -129,7 +135,7 @@
                                 <input type="checkbox" id="check10"> <label for="check10">Speck</label>
                             </div>
                             <hr class="solid">
-                            <p class="ratingConfigure">
+                            <p class="ratingTitle">
                                 Rating
                             </p>
                             <div class="rating">
@@ -169,7 +175,7 @@
                     <select name="" id="" style="width: 8%; height: 30px; border-radius: 5px; margin-left: 60%; margin-right: 2%;"><option value="">Default</option></select>
 
                     <button style="width: 5%; height: 40px;  margin-right: 1%;" class="shadow"><i class="fas fa-border-all"></i></button>
-                    <button style="width: 5%; height: 40px;  background-color: #091e42; border-radius: 2px;" class="shadow"><i style="color: white;" class="fas fa-bars"></i></button>
+                    <button style="width: 5%; height: 40px;  background-color: #36b37e; border-radius: 2px;" class="shadow"><i style="color: white;" class="fas fa-bars"></i></button>
                     </div>
                     
                         <input type="text" class="searchInput shadow" id="searchInput" placeholder="Search Here">
