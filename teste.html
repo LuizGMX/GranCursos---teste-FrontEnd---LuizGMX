@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>    
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <img src="https://www.grancursosonline.com.br/assets/site/img/logo/logo.svg"
+                style="width: 80%; margin-left: 8%; margin-bottom: 5%; " alt="">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i>Dashboard</a></li>
+                <li><a href="#"><i class="far fa-circle"></i>eCommerce</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i>Email</a></li>
+                <li><a href="#"><i class="far fa-comment-alt topIcons"></i>Chat</a></li>
+                <li><a href="#"><i class="fas fa-check"></i>Todo</a></li>
+                <li><a href="#"><i class="fas fa-calendar"></i>Calendar</a></li>
+            </ul>
+
+            <ul style="margin-top: 10%;">
+                <li><a href="#"><i class="fas fa-th"></i>Grid</a></li>
+                <li><a href="#"><i class="fas fa-tint"></i>Colors</a></li>
+                <li><a href="#"><i class="fas fa-credit-card"></i>Card</a></li>
+                <li><a href="#"><i class="fas fa-table"></i></i>Table</a></li>
+                <li><a href="#"><i class="fas fa-box"></i>Components</a></li>
+            </ul>
+
+            <ul style="margin-top: 10%;">
+                <li><a href="#"><i class="far fa-square"></i>Form Elements</a></li>
+                <li><a href="#"><i class="fas fa-table"></i>Form Layouts</a></li>
+                <li><a href="#"><i class="far fa-file-alt"></i>Form Wizard</a></li>
+                <li><a href="#"><i class="far fa-check-circle"></i></i>Form Validation</a></li>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="header shadow">
+                
+                <i class="fas fa-check topIcons"></i>
+                <i class="far fa-comment-alt topIcons"></i>
+                <i class="far fa-envelope topIcons"></i>
+                <i class="far fa-calendar topIcons"></i>
+                <i class="far fa-star topIcons"></i>
+               
+                <div class="headerRight">
+                    English
+                    <i class="far fa-bell"></i>
+                    <i class="fas fa-search "></i>
+                    John Doe
+                    <i class="far fa-user-circle "></i>
+                </div>
+               
+
+            </div>
+            <div class="cardActions">
+                <h2 style="display:inline">Card Actions | <i class="fas fa-home"></i> </h2> >> eCommerce >> Eletronics
+            </div>
+            <section class="atul">
+
+
+                <div class="leftSide">
+                    <p style="margin-bottom: 2%;">Filters</p>
+                    <div class="filters shadow">
+
+                        <div class="container column">
+    
+                            <p style="margin-top: 8%; margin-bottom: 5%; margin-left: 4% ;font-weight: bold;"> Multi Range
+                            </p>
+                            <div class="checkBoxes">
+                                <input type="radio" name="multiRange" style="display: inline;" id="radio1">
+                                <label for="radio1">$10</label> <br>
+                                <input type="radio" name="multiRange" id="radio2">
+                                <label for="radio2">$10-$100</label> <br>
+                                <input type="radio" name="multiRange" id="radio3">
+                                <label for="radio3">$100-$500</label> <br>
+                                <input type="radio" name="multiRange" id="radio4">
+                                <label for="radio4">$500</label> <br>
+                                <input type="radio" name="multiRange" id="radio5">
+                                <label for="radio5">All</label>
+                            </div>
+                            <p style="font-weight: bold; margin-top: 10%; margin-left: 4%">
+                                Slider<input type="text" id="amount" readonly
+                                    style="border:0; font-weight:bold; background-color: transparent; margin-left: 35%;">
+                            </p>
+                            <div style="background-color: #091e42; width: 80%; margin-left: 5%; margin-right: 5%; margin-top: 10%; margin-bottom: 10%;"
+                                id="slider-range"></div>
+                            <hr class="solid">
+                            <p class="brand"> Category
+                            </p>
+                            <div class="checkBoxes">
+                                <input type="checkbox" id="check1"> <label for="check1">Cell Phones</label> <br>
+                                <input type="checkbox" id="check2"> <label for="check2">Computers & Tablets</label> <br>
+                                <input type="checkbox" id="check3"> <label for="check3">Cell Phones Acessories</label> <br>
+                                <input type="checkbox" id="check4"> <label for="check4">Apliances</label> <br>
+                                <input type="checkbox" id="check5"> <label for="check5">Audio</label> <br>
+                                <input type="checkbox" id="check6"> <label for="check6">iPhone Acessories</label> <br>
+                                <input type="checkbox" id="check7"> <label for="check7">Camera & Camcorders</label> <br>
+                                <input type="checkbox" id="check8"> <label for="check8">iPhone Cases & Clips</label> <br>
+                                <input type="checkbox" id="check9"> <label for="check9">TV & Home Theater</label> <br>
+                                <input type="checkbox" id="check10"> <label for="check10">Smaill Kitchen Aplliances</label>
+                            </div>
+                            <hr class="solid">
+                            <p class="brand">
+                                Brand
+                            </p>
+                            <div class="checkBoxes">
+                                <input type="checkbox" id="check1"> <label for="check1">Insigni</label> <br>
+                                <input type="checkbox" id="check2"> <label for="check2">Samsung</label> <br>
+                                <input type="checkbox" id="check3"> <label for="check3">Apple</label> <br>
+                                <input type="checkbox" id="check4"> <label for="check4">HP</label> <br>
+                                <input type="checkbox" id="check5"> <label for="check5">Sony</label> <br>
+                                <input type="checkbox" id="check6"> <label for="check6">Metra</label> <br>
+                                <input type="checkbox" id="check7"> <label for="check7">Dyne</label> <br>
+                                <input type="checkbox" id="check8"> <label for="check8">LG</label> <br>
+                                <input type="checkbox" id="check9"> <label for="check9">Canon</label> <br>
+                                <input type="checkbox" id="check10"> <label for="check10">Speck</label>
+                            </div>
+                            <hr class="solid">
+                            <p class="ratingConfigure">
+                                Rating
+                            </p>
+                            <div class="rating">
+                                <span style="color: white;">☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                            </div>
+                            <div class="rating">
+                                <span style="color: white;">☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                            </div>
+                            <div class="rating">
+                                <span style="color: white;">☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                                <span>☆</span>
+                            </div>
+    
+                        </div>  
+    
+                    </div>
+
+                    <button class="filterButton shadow">CLEAR ALL FILTERS</button>
+                </div>
+                
+                <div class="rightSide">
+
+                    <div class="rowIcons">
+                        <p>7,618 results found in 5ms</p>
+
+                    <select name="" id="" style="width: 8%; height: 30px; border-radius: 5px; margin-left: 60%; margin-right: 2%;"><option value="">Default</option></select>
+
+                    <button style="width: 5%; height: 40px;  margin-right: 1%;" class="shadow"><i class="fas fa-border-all"></i></button>
+                    <button style="width: 5%; height: 40px;  background-color: #091e42; border-radius: 2px;" class="shadow"><i style="color: white;" class="fas fa-bars"></i></button>
+                    </div>
+                    
+                        <input type="text" class="searchInput shadow" id="searchInput" placeholder="Search Here">
+                
+
+                    <div class="subSection shadow">
+
+                        <div class="productsImage">
+                            <img src="https://static.netshoes.com.br/produtos/apple-watch-series-4-gps-40-mm-aluminio-pulseira-esportiva/78/544-9056-278/544-9056-278_zoom1.jpg?ts=1572520939&ims=544x"
+                                alt="" srcset="" height="100%" width="100%">
+                        </div>
+                        <div class="productsDetails">
+
+                            <p class="productsName">Apple Watch Series 4 GPS</p>
+                            <p class="subTitle">By Apple</p>
+                            <p class="productsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse quis turpis ac arcu maximus dignissim vel id nisl. Aliquam vestibulum augue
+                                at nisi interdum, non imperdiet enim aliquam. Aenean ut viverra ex. Aliquam in velit at
+                                odio imperdiet fermentum et ac dui. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus. Fusce fermentum libero ac ligula blandit, vitae ultrices nunc varius. Cras eu
+                                nulla vel libero finibus vehicula non a tortor. </p>
+
+                        </div>
+                        <div class="productsActions container column">
+
+                            <p class="productsPrice">$399</p>
+                            <p class="shipping">Free Shipping</p>
+                            <button class="productsButtons"><i class="far fa-heart productsIcons"></i>WISHLIST</button>
+                            <button class="addToCart"><i class="fas fa-cart-plus productsIcons"></i>ADD TO CART</button>
+
+                        </div>
+                    </div>
+
+                    <div class="subSection shadow">
+
+                        <div class="productsImage">
+                            <img src="https://images.crutchfieldonline.com/ImageHandler/trim/620/378/products/2017/41/109/g109BOOMBOX-F.jpg"
+                                alt="" srcset="" height="100%" width="100%">
+                        </div>
+                        <div class="productsDetails">
+                            <p class="productsName">JBL Speaker</p>
+                            <p class="subTitle">By JBL</p>
+                            <p class="productsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse quis turpis ac arcu maximus dignissim vel id nisl. Aliquam vestibulum augue
+                                at nisi interdum, non imperdiet enim aliquam. Aenean ut viverra ex. Aliquam in velit at
+                                odio imperdiet fermentum et ac dui. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus. Fusce fermentum libero ac ligula blandit, vitae ultrices nunc varius. Cras eu
+                                nulla vel libero finibus vehicula non a tortor. </p>
+
+                        </div>
+                        <div class="productsActions container column">
+
+                            <p class="productsPrice">$399</p>
+                            <p class="shipping">Free Shipping</p>
+                            <button class="productsButtons"><i class="far fa-heart"></i>WISHLIST</button>
+                            <button class="addToCart"><i class="fas fa-cart-plus"></i>ADD TO CART</button>
+
+                        </div>
+                    </div>
+
+                    <div class="subSection shadow">
+
+                        <div class="productsImage">
+                            <img src="https://i.zst.com.br/images/smartphone-apple-iphone-x-64gb-camera-dupla-apple-a11-bionic-ios-11-photo220338005-12-9-18.jpg"
+                                alt="" srcset="" height="100%" width="100%">
+                        </div>
+                        <div class="productsDetails">
+                            <p class="productsName">Apple iPhone X 128 GB</p>
+                            <p class="subTitle">By Apple</p>
+                            <p class="productsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse quis turpis ac arcu maximus dignissim vel id nisl. Aliquam vestibulum augue
+                                at nisi interdum, non imperdiet enim aliquam. Aenean ut viverra ex. Aliquam in velit at
+                                odio imperdiet fermentum et ac dui. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus. Fusce fermentum libero ac ligula blandit, vitae ultrices nunc varius. Cras eu
+                                nulla vel libero finibus vehicula non a tortor. </p>
+
+                        </div>
+                        <div class="productsActions container column">
+
+                            <p class="productsPrice">$399</p>
+                            <p class="shipping">Free Shipping</p>
+                            <button class="productsButtons"><i class="far fa-heart"></i>WISHLIST</button>
+                            <button class="addToCart"><i class="fas fa-cart-plus"></i>ADD TO CART</button>
+
+                        </div>
+                    </div>
+
+                    <div class="subSection shadow">
+
+                        <div class="productsImage">
+                            <img src="https://media.4rgos.it/i/Argos/7393174_R_Z001A?w=750&h=440&qlt=70" alt=""
+                                srcset="" height="100%" width="100%">
+                        </div>
+                        <div class="productsDetails">
+                            <p class="productsName">Beats Headphones</p>
+                            <p class="subTitle">By Beats</p>
+                            <p class="productsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse quis turpis ac arcu maximus dignissim vel id nisl. Aliquam vestibulum augue
+                                at nisi interdum, non imperdiet enim aliquam. Aenean ut viverra ex. Aliquam in velit at
+                                odio imperdiet fermentum et ac dui. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus. Fusce fermentum libero ac ligula blandit, vitae ultrices nunc varius. Cras eu
+                                nulla vel libero finibus vehicula non a tortor. </p>
+
+                        </div>
+                        <div class="productsActions container column">
+
+                            <p class="productsPrice">$399</p>
+                            <p class="shipping">Free Shipping</p>
+                            <button class="productsButtons"><i class="far fa-heart"></i>WISHLIST</button>
+                            <button class="addToCart"><i class="fas fa-cart-plus"></i>ADD TO CART</button>
+
+                        </div>
+                    </div>
+
+                    <div class="subSection shadow">
+
+                        <div class="productsImage">
+                            <img style="border-radius: 5%; border-color: #091e42;"
+                                src="https://i.zst.com.br/images/smart-tv-tv-led-65-samsung-serie-7-4k-hdr-un65ru7100gxzd-3-hdmi-photo796872210-12-2f-13.jpg"
+                                alt="" srcset="" height="100%" width="100%">
+                        </div>
+                        <div class="productsDetails">
+                            <p class="productsName">Apple Watch Series 4 GPS</p>
+                            <p class="subTitle">By Apple</p>
+                            <p class="productsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse quis turpis ac arcu maximus dignissim vel id nisl. Aliquam vestibulum augue
+                                at nisi interdum, non imperdiet enim aliquam. Aenean ut viverra ex. Aliquam in velit at
+                                odio imperdiet fermentum et ac dui. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus. Fusce fermentum libero ac ligula blandit, vitae ultrices nunc varius. Cras eu
+                                nulla vel libero finibus vehicula non a tortor. </p>
+                        </div>
+                        <div class="productsActions container column">
+
+                            <p class="productsPrice">$399</p>
+                            <p class="shipping">Free Shipping</p>
+                            <button class="productsButtons"><i class="far fa-heart"></i>WISHLIST</button>
+                            <button class="addToCart"><i class="fas fa-cart-plus"></i>ADD TO CART</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- <button
+                style="width: 18%; height: 2%;;margin-left: 1%; margin-top: 1%; border-radius: 10px; border-color: #84888d ;background-color: #091e42; color: white;">CLEAR
+                ALL FILTERS</button>  
+                 -->
+
+
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
